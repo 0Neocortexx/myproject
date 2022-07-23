@@ -6,7 +6,7 @@
     <title>Calculauto: Médias</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   </head>
-  <body onLoad="mostrarCaixas()" class="vh-100 vw-100">
+  <body class="vh-100 vw-99">
     <nav class="navbar navbar-expand-lg bg-light bg-gradient shadow p-3 mb-5 bg-body">
         <div class="container-fluid">
           <a class="navbar-brand fs-4" href="#">Calculauto</a>
@@ -21,7 +21,6 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Criador</a>
               </li>
-              
             </ul>
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -35,7 +34,7 @@
       <div id="select" class="w-100 h-75 d-flex align-items-center justify-content-center">
         <div class="border border-secondaryk w-25 h-75 rounded bg-light bg-gradient shadow p-3 mb-5 bg-body">
           <div class="w-100 h-25 d-flex align-items-center justify-content-center">
-              <h1 class="fs-3 font-monospace">Escolha a operação</h1>
+              <h1 class="fs-3 font-monospace">Valores</h1>
           </div>
           <div class="w-100 h-75 d-flex align-items-center justify-content-center">
               <div class="w-100 h-75 text-center">
@@ -51,7 +50,7 @@
         </div>
   </div>
 
-  <div id="dois_v" class="w-100 h-75 d-flex align-items-center justify-content-center">
+  <div id="dois_v" class="w-100 h-75 d-flex align-items-center justify-content-center d-none">
     <div class="border border-secondaryk w-25 h-75 rounded bg-light bg-gradient shadow p-3 mb-5 bg-body">
       <div class="w-100 h-25 d-flex align-items-center justify-content-center">
           <h1 class="fs-3 font-monospace">Cálculo da média</h1>
@@ -71,7 +70,7 @@
 </div>
 
 
-<div id="tres_v" class="w-100 h-75 d-flex align-items-center justify-content-center">
+<div id="tres_v" class="w-100 h-75 d-flex align-items-center justify-content-center d-none">
     <div class="border border-secondaryk w-25 h-75 rounded bg-light bg-gradient shadow p-3 mb-5 bg-body">
       <div class="w-100 h-25 d-flex align-items-center justify-content-center">
           <h1 class="fs-3 font-monospace">Cálculo da média</h1>
@@ -92,7 +91,7 @@
     </div>
 </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <script src="js/calcular_media.js"></script>
+    <script src="../static/js/calcular_media.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>

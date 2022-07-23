@@ -1,7 +1,9 @@
 function mostrarCaixas() {
-    document.getElementById("dois_v").style.display = "None";
-
-    document.getElementById("tres_v").style("display: None;")
+    var valor = document.getElementById("valor")
+    if (valor == 2) {
+        document.getElementById("select").style.display="none";
+        document.getElementById("dois_v").style.display="inherit"
+    }
 }
 
 function calcularMedia2() {
